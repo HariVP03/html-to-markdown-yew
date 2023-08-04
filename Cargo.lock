@@ -373,6 +373,8 @@ checksum = "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b"
 name = "html-to-markdown-web"
 version = "0.1.0"
 dependencies = [
+ "wasm-bindgen",
+ "web-sys",
  "yew",
 ]
 
